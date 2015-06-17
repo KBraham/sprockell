@@ -133,7 +133,7 @@ alu opCode x y = case opCode of
         Xor    -> x `xor` y
 
 intBool :: Bool -> Value
-intBool True  = 1
+intBool True  = -1
 intBool False = 0
 
 -- ============================
